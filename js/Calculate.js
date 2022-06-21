@@ -82,7 +82,7 @@ function flipHex(hextoflip){
     console.log(bit);
     bittoflip = bit.split("",4);
     console.log(bittoflip[2]);
-    switch (bittoflip[2]) {
+    switch (bittoflip[2].toString()) {
         case "1":
             bittoflip[2] = 0; 
             break;
