@@ -88,7 +88,13 @@ function flipHex(hextoflip){
             break;
         case "0":
             bittoflip[2] = 1;
-            break
+            break;
+    	case 1:
+            bittoflip[2] = 0; 
+            break;
+        case 0:
+            bittoflip[2] = 1;
+            break;
         default:
             throw new Error("Not Implemented");
     }
